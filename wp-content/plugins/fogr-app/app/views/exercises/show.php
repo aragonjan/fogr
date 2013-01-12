@@ -12,4 +12,7 @@
   <span>Duration: <span>
   <span><?= $object->duration ?><span>
 </div>
-
+<div>
+  <span>Description: <span>
+  <span><?= $object->description ?><span>
+</div>
