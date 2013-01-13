@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fogr</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+  <script src="js/vendor/jquery-1.8.2.min.js"></script>
+  <script src="js/vendor/jquery.mobile-1.2.0.js"></script>
+</head>
+<body>
+<div data-role="page">
+    <!-- Header --> 
+	<div id="header" data-theme="c" data-role="header">
+         <a id="btn_home" data-role="button" data-inline="true" data-direction="reverse" data-rel="back" data-transition="flip" data-theme="c" href="./home.html" data-icon="home" data-iconpos="left" class="ui-btn-left">
+             Home
+        </a>
+        <h3>
+            #FOGR
+        </h3>
+    </div>
+  <div data-role="content">
+  
+	<ul id="lv_my_prog" data-role="listview" data-inset="true" data-filter="true">
+   </ul>
+  </div>
+  
+  <script src="js/my_prog.js"></script>
+  
+  <!-- Navigation Bar --> 
+    <div data-role="navbar" data-iconpos="top">
+    <ul>
+        <li>
+			<a href="#page1" data-theme="" data-icon="star">
+                contact
+            </a>
+        </li>
+        <li>
+            <a href="#page1" data-theme="" data-icon="info">
+                profile
+            </a>
+        </li>
+         <li>
+            <a href="#page1" data-theme="" data-icon="grid">
+                more
+            </a>
+        </li>
+    </ul>
+    </div>
+   
+    <!-- Footer --> 
+	
+    <div data-theme="d" data-role="footer" data-position="fixed">
+        <h1>
+            Ray Ortiz
+         </h1>
+    </div>
+        
+</div>
+</body>
+</html>

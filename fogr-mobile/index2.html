@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fogr</title>
+   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+  <script src="js/vendor/jquery-1.8.2.min.js"></script>
+  <script src="js/vendor/jquery.mobile-1.2.0.js"></script>
+</head>
+<body>
+  <!-- Home -->
+        <div data-role="page" id="page1">
+            <div id="header" data-theme="c" data-role="header">
+                <a id="btn_home" data-role="button" data-inline="true" data-direction="reverse" data-rel="back" data-transition="flip" data-theme="c" href="#page1" data-icon="home" data-iconpos="left" class="ui-btn-left">
+                    Home
+                </a>
+                <h3>
+                    #FOGR
+                </h3>
+            </div>
+            <div data-role="content">
+			<ul id="lv_prog5" data-role="listview" data-inset="true">	
+			
+			</ul>
+                <ul id="lv_prog1" data-role="listview" data-divider-theme="b" data-inset="true">			
+                    <li data-role="list-divider" role="heading">
+                    </li>
+					<li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            My Program
+                        </a>
+                    </li>
+					<li data-theme="c"><a href="#" data-transition="slide"> My Program B</a></li>
+                </ul>
+                
+				<ul id="lv_prog2" data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1">
+                            My Program
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            My Program History
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="exercises.html" data-transition="slide">
+                            Excercises
+                        </a>
+                    </li>
+                </ul>
+                <ul id="lv_prog3" data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            FOGR Schedule
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            FOGR News
+                        </a>
+                    </li>
+                </ul>
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="#page1" data-theme="" data-icon="star">
+                                contact
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page1" data-theme="" data-icon="info">
+                                profile
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page1" data-theme="" data-icon="grid">
+                                more
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div data-theme="d" data-role="footer" data-position="fixed">
+                <h1>
+                    Ray Ortiz
+                </h1>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</body>
+</html>

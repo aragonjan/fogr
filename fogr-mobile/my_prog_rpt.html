@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fogr</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+  <script src="js/vendor/jquery-1.8.2.min.js"></script>
+  <script src="js/vendor/jquery.mobile-1.2.0.js"></script>
+  
+    <link class="include" rel="stylesheet" type="text/css" href="js/jqplot/jquery.jqplot.min.css" />
+    <link rel="stylesheet" type="text/css" href="js/jqplot/examples.min.css" />
+    <link type="text/css" rel="stylesheet" href="js/jqplot/syntaxhighlighter/styles/shCoreDefault.min.css" />
+    <link type="text/css" rel="stylesheet" href="js/jqplot/syntaxhighlighter/styles/shThemejqPlot.min.css" />
+  
+  <!--[if lt IE 9]><script language="javascript" type="text/javascript" src="../excanvas.js"></script><![endif]-->
+    <script class="include" type="text/javascript" src="js/jqplot/jquery.min.js"></script>
+	  <script class="include" type="text/javascript" src="js/jqplot/jquery.jqplot.min.js"></script>
+    <script type="text/javascript" src="js/jqplot/syntaxhighlighter/scripts/shCore.min.js"></script>
+    <script type="text/javascript" src="js/jqplot/syntaxhighlighter/scripts/shBrushJScript.min.js"></script>
+    <script type="text/javascript" src="js/jqplot/syntaxhighlighter/scripts/shBrushXml.min.js"></script>
+	
+</head>
+<body>
+<div data-role="page">
+    <!-- Header --> 
+	<div id="header" data-theme="c" data-role="header">
+         <a id="btn_home" data-role="button" data-inline="true" data-direction="reverse" data-rel="back" data-transition="flip" data-theme="c" href="./home.html" data-icon="home" data-iconpos="left" class="ui-btn-left">
+             Home
+        </a>
+        <h3>
+            #FOGR
+        </h3>
+    </div>
+    <div data-role="content">
+	My Program Report - -
+  
+  <!--
+	<ul id="lv_my_prog" data-role="listview" data-inset="true" data-filter="true">
+   </ul>
+  </div>
+  -->
+  
+  <div id="chart1" style="width:350px; height:150px"></div>
+  
+   <div id="chart2" style="width:350px; height:150px"></div>
+  <pre class="code brush:js"></pre>
+  
+	<script type="text/javascript" src="js/my_prog_rpt.js"></script>
+
+
+	
+	</div>
+	<!--
+	<script type="text/javascript" src="js/jqplot/example.min.js"></script>
+	-->
+  <!-- Navigation Bar --> 
+    <div data-role="navbar" data-iconpos="top">
+    <ul>
+        <li>
+			<a href="#page1" data-theme="" data-icon="star">
+                contact
+            </a>
+        </li>
+        <li>
+            <a href="#page1" data-theme="" data-icon="info">
+                profile
+            </a>
+        </li>
+         <li>
+            <a href="#page1" data-theme="" data-icon="grid">
+                more
+            </a>
+        </li>
+    </ul>
+    </div>
+   
+    <!-- Footer --> 
+	
+    <div data-theme="d" data-role="footer" data-position="fixed">
+        <h1>
+            Ray Ortiz
+         </h1>
+    </div>
+        
+</div>
+</body>
+</html>
